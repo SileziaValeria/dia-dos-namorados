@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia dos Namorados</title>
+</head>
+<body>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #e63946;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.gift-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gift-list li {
+    background-color: #e63946;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.gift-list li:hover {
+    background-color: #d62828;
+}
+</style>
+
+<div class="container">
+    <h1>Lista de presentes para sua mulher no dia dos namorados</h1>
+    <h5>obs: não dê o vacilo de dar dinheiro novamente</h5>
+    <ul class="gift-list">
+        <li onclick="showPopup()">To brincando mor, precisa dar nada não rsrs &#128516;</li> 
+    </ul>
+</div>
+
+<script>
+function showPopup() {
+    alert("Se não der vou ficar triste");
+}
+</script>
+
+</body>
+</html>
